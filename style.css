@@ -1,0 +1,40 @@
+/* Common styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Inter", sans-serif;
+}
+.common-btn{
+  background-color: #1D4ED8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+
+/* Header-section */
+
+/* navbar */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 80px;
+
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: #575757;
+}
