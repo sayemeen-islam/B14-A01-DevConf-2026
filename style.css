@@ -1,4 +1,5 @@
 /* Common styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +21,15 @@ body {
 
 .common-container {
   margin: 20px 8%;
+}
+
+.common-center {
+  text-align: center;
+}
+
+.common-card-style {
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #E5E7EB;
 }
 
 
@@ -91,21 +101,15 @@ nav ul a {
   margin-top: 80px;
 }
 
-.speakers-section h2{
-  font-size: 45px;
-  text-align: center;
+.speakers-section h2 {
+  font-size: 50px;
 }
 
 .speaker-card-cotainer {
-  margin-top: 50px;
+  margin-top: 45px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-}
-
-.speaker-card {
-  border-radius: 10px;
-  box-shadow: 0 0 0 1px #E5E7EB;
 }
 
 .speaker-card img {
@@ -120,17 +124,132 @@ nav ul a {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.speaker-role{
+
+.speaker-role {
   color: #2563EB;
   font-size: 12px;
   font-weight: 600;
 }
-.speaker-name{
+
+.speaker-name {
   color: #0D1B2A;
   font-size: 20px;
   font-weight: bolder;
 }
-.speaker-workplace{
+
+.speaker-workplace {
   color: #575757;
   font-size: 14px;
+}
+
+
+/* Pricing Section */
+
+.pricing-section {
+  margin-top: 120px;
+  padding: 40px 4%;
+}
+
+.pricing-section h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.pricing-section-subtitle {
+  font-size: 14px;
+  color: #575757;
+  margin-bottom: 30px;
+
+}
+
+.pricing-card-container {
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+}
+
+.pricing-card {
+  flex: 1;
+  padding: 32px;
+  font-size: 13px;
+}
+
+.pro-card {
+  background-color: #0D1B2A;
+}
+
+.card-type {
+  font-size: 12px;
+  color: #797878;
+  font-weight: 500;
+  margin-bottom: 6px;
+
+}
+
+.pro-card .card-type {
+  color: #93C5FD;
+}
+
+.card-price {
+  font-size: 36px;
+  margin-bottom: 3px;
+
+}
+
+.pro-card .card-price {
+  color: white;
+}
+
+.card-person-number {
+  font-size: 12px;
+  color: #797878;
+  padding-bottom: 18px;
+  box-shadow: 0 1px 0 0 #E5E7EB;
+}
+
+.pro-card .card-person-number {
+  color: #FFFFFF50;
+  box-shadow: 0 1px 0 0 #FFFFFF10;
+}
+
+.pricing-card ul {
+  padding-top: 18px;
+  list-style-position: inside;
+  line-height: 1.5rem;
+  color: #333333;
+
+}
+
+.pricing-card ul li::marker {
+  color: #2563EB;
+}
+
+.pro-card ul li {
+  color: #FFFFFF80;
+}
+
+.pricing-btn {
+  width: 100%;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.pricing-standard-btn {
+
+  color: #1D4ED8;
+  background-color: white;
+  border: 1px solid #1D4ED8;
+}
+
+.pricing-pro-btn {
+  background-color: #1D4ED8;
+  color: white;
+  border: 1px solid #1D4ED8;
+
+}
+
+.pricing-team-btn {
+  color: #0D1B2A;
+  background-color: white;
+  border: 1px solid #0D1B2A;
 }
