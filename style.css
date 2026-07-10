@@ -17,6 +17,7 @@ body {
   border-radius: 8px;
   padding: 10px 30px;
   cursor: pointer;
+  font-weight: bolder;
 }
 
 .common-container {
@@ -30,6 +31,10 @@ body {
 .common-card-style {
   border-radius: 10px;
   box-shadow: 0 0 0 1px #E5E7EB;
+}
+
+.common-pointer {
+  cursor: pointer;
 }
 
 
@@ -146,7 +151,8 @@ nav ul a {
 /* Pricing Section */
 
 .pricing-section {
-  margin-top: 120px;
+  margin-top: 140px;
+  margin-bottom: 70px;
   padding: 40px 4%;
 }
 
@@ -159,7 +165,6 @@ nav ul a {
   font-size: 14px;
   color: #575757;
   margin-bottom: 30px;
-
 }
 
 .pricing-card-container {
@@ -183,7 +188,6 @@ nav ul a {
   color: #797878;
   font-weight: 500;
   margin-bottom: 6px;
-
 }
 
 .pro-card .card-type {
@@ -193,7 +197,6 @@ nav ul a {
 .card-price {
   font-size: 36px;
   margin-bottom: 3px;
-
 }
 
 .pro-card .card-price {
@@ -217,7 +220,6 @@ nav ul a {
   list-style-position: inside;
   line-height: 1.5rem;
   color: #333333;
-
 }
 
 .pricing-card ul li::marker {
@@ -231,7 +233,6 @@ nav ul a {
 .pricing-btn {
   width: 100%;
   margin-top: 20px;
-  font-weight: 700;
 }
 
 .pricing-standard-btn {
@@ -252,4 +253,38 @@ nav ul a {
   color: #0D1B2A;
   background-color: white;
   border: 1px solid #0D1B2A;
+}
+
+
+/* Footer Section */
+
+.footer-section {
+  background-color: #0D1B2A;
+  padding: 50px 8%;
+}
+
+.logo-icon-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.icon-style {
+  color: white;
+  margin-left: 10px;
+}
+
+.copyright-info-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  gap: 20px;
+  color: #FFFFFF40;
+}
+
+.privecy-terms {
+  display: flex;
+  gap: 20px;
 }
