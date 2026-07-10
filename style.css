@@ -1,13 +1,15 @@
 /* Common styles */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   font-family: "Inter", sans-serif;
 }
-.common-btn{
+
+.common-btn {
   background-color: #1D4ED8;
   color: white;
   border: none;
@@ -15,26 +17,65 @@ body{
   padding: 10px 30px;
   cursor: pointer;
 }
+.common-container{
+  margin: 20px 8%;
+}
 
 
 /* Header-section */
 
 /* navbar */
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 80px;
-
+  
 }
 
-nav ul{
+nav ul {
   display: flex;
   list-style: none;
   gap: 10px;
 }
 
-nav ul a{
+nav ul a {
   text-decoration: none;
   color: #575757;
+}
+
+/* hero-section */
+.hero-banner-container {
+  min-height: 110vh;
+  text-align: center;
+  color: white;
+  background-image:
+    linear-gradient(to right,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 70%),
+    linear-gradient(to bottom left,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 42%,
+      rgba(0, 0, 0, .88) 87%),
+
+    url("./assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-banner-container h1 {
+  font-size: 65px;
+  padding-top: 150px;
+  line-height: 30px;
+}
+
+.hero-banner-container p {
+  font-size: 18px;
+  padding: 40px 350px;
+}
+
+.banner-btn {
+  margin-top: 250px;
+  font-size: 22px;
+  padding: 15px 50px;
 }
