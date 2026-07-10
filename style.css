@@ -17,7 +17,8 @@ body {
   padding: 10px 30px;
   cursor: pointer;
 }
-.common-container{
+
+.common-container {
   margin: 20px 8%;
 }
 
@@ -29,7 +30,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 
 nav ul {
@@ -43,7 +44,9 @@ nav ul a {
   color: #575757;
 }
 
+
 /* hero-section */
+
 .hero-banner-container {
   min-height: 110vh;
   text-align: center;
@@ -71,11 +74,63 @@ nav ul a {
 
 .hero-banner-container p {
   font-size: 18px;
-  padding: 40px 350px;
+  padding: 40px 26%;
 }
 
 .banner-btn {
   margin-top: 250px;
+  margin-bottom: 60px;
   font-size: 22px;
   padding: 15px 50px;
+}
+
+
+/*Meet the Speakers Section */
+
+.speakers-section {
+  margin-top: 80px;
+}
+
+.speakers-section h2{
+  font-size: 45px;
+  text-align: center;
+}
+
+.speaker-card-cotainer {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.speaker-card {
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #E5E7EB;
+}
+
+.speaker-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.speaker-card-content {
+  padding: 20px;
+  line-height: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.speaker-role{
+  color: #2563EB;
+  font-size: 12px;
+  font-weight: 600;
+}
+.speaker-name{
+  color: #0D1B2A;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.speaker-workplace{
+  color: #575757;
+  font-size: 14px;
 }
